@@ -1,0 +1,21 @@
+.position-layout {
+	position: relative;
+	height: calc(100% - 80px);
+
+	&>nav {
+		position: fixed;
+		left: 0;
+		top: 80px;
+		width: 240px;
+		height: 100%;
+		background-color: lightgrey;
+	}
+
+	&>.position-content {
+		margin-left: 240px;
+		min-width: 960px;
+		height: 100%;
+		overflow-y: auto;
+		background-color: lightblue;
+	}
+}

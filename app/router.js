@@ -7,6 +7,9 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('position-layout');
+  this.route('flex-layout');
+  this.route('saas-layout');
 });
 
 export default Router;

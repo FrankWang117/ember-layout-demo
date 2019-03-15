@@ -1,0 +1,21 @@
+.saas-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 3;
+}
+
+.saas-nav {
+	position: fixed;
+	left: 0;
+	top: 80px;
+	bottom: 0;
+	width: 240px;
+}
+
+.saas-content {
+	padding: 80px 0 0 240px;
+	height: 100%;
+	width: 100%;
+}
